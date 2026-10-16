@@ -2,6 +2,9 @@
 
 **Write-up:** [`docs/README.md`](docs/README.md) · **Full experiment log:** [`docs/experiments.md`](docs/experiments.md) · **Archived outputs:** [`experiments/`](experiments/) · **Code notes:** [`src/README.md`](src/README.md)
 
+## **Disclaimer**
+This repo is designed as a research and POC repo and not a production repo. I have included all my experiments to show my work. AI(Cursor IDE) was used for coding purposes. The google doc in `docs/README.md` was completely written by me to help explain the though process and kept within 2 pages as requested.
+
 Main pipeline: **calibrated MobileCLIP-S0 zero-shot**.
 
 ### Benchmark metrics

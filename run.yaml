@@ -13,6 +13,7 @@ test_commands:
   - "python scripts/smoke_test.py"
 
 notes: |
+  Requires internet connection to download model weights. 
   Default run: calibrated MobileCLIP-S0 zero-shot on the bundled sample clip
   (expects "Sports Competition"). Needs models/mobileclip/calibration.json
   (shipped) and mobileclip_s0.pt (downloaded in setup).

@@ -6,6 +6,8 @@ Classify each video into a Video-MME **domain** using a 10% stratified sample.
 After dropping Multilingual (only 2 examples), the data is **88 videos / 5 domains**
 (train 43 / val 18 / test 27). Splits: `data/splits/`.
 
+As requested, this [write-up](https://docs.google.com/document/d/16gkJVD3QJKXVXPAFGSi2bQ07C7pLFLd3h_yTmI9kJwA/edit?usp=sharing) explains my thought process and overall approach, and answers the questions specifically asked in the problem statement.
+
 ## Method
 
 **Calibrated MobileCLIP-S0 zero-shot** (`src/main.py`):
