@@ -1,7 +1,59 @@
+# Python / env
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 .venv/
 venv/
 .env
-node_modules/
+.python-version
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Editors / OS
 .DS_Store
+.idea/
+.vscode/
+*.swp
+node_modules/
+
+# Full Video-MME sample (videos, QA, subtitles) — keep data/sample/
+data/video-mme-sample10/
+
+# Feature caches (MobileCLIP / Omni / jev / CLAP embeddings)
+data/cache/
+
+# Debug frame/grid exports
+data/debug/
+
+# Large media everywhere except the bundled smoke-test clip
+*.mp4
+*.webm
+*.mkv
+*.avi
+!data/sample/
+!data/sample/**
+
+# Trained experiment heads (MLP / GRU / Omni)
+checkpoints/
+*.ckpt
+
+# Downloaded foundation weights (calibration.json stays tracked)
+models/**/*.pt
+models/**/*.bin
+models/**/*.safetensors
+models/**/*.gguf
+models/**/*.onnx
+models/**/*.pth
+
+# Hugging Face / torch hubs if ever cached inside the repo
+.cache/
+
+# Regenerable eval outputs (re-run: python src/main.py)
+results/*
+!results/.gitkeep
+
+# Archived experiment run logs / JSONL (write-up is in docs/experiments.md)
+experiments/*
+!experiments/README.md

@@ -1,0 +1,9 @@
+torch>=2.8
+torchvision>=0.23
+timm>=1.0.17
+open-clip-torch>=2.20
+opencv-python>=4.8
+Pillow>=10
+numpy
+huggingface_hub>=0.26
+mobileclip @ git+https://github.com/apple/ml-mobileclip.git

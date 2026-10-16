@@ -1,5 +1,16 @@
 # Problem 1.1: Video Classifier
 
+**Write-up:** [`docs/README.md`](docs/README.md) · **Full experiment log:** [`docs/experiments.md`](docs/experiments.md) · **Archived outputs:** [`experiments/`](experiments/) · **Code notes:** [`src/README.md`](src/README.md)
+
+Main pipeline: **calibrated MobileCLIP-S0 zero-shot** — 21/27 test (78%), 51/61 train+val (84%).
+
+```bash
+python scripts/download_mobileclip.py
+python src/main.py --predict data/sample/sports_clip.mp4
+```
+
+Full Video-MME metrics: see [`docs/README.md`](docs/README.md) (download HF dataset → `python src/main.py`).
+
 ## Submission instructions
 
 1. Install the **AIntropy Grader Bot** GitHub App (https://github.com/apps/aintropy-grader-bot) and grant it access to your fork, if you haven't already — we can't evaluate your submission without this.

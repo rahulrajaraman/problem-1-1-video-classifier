@@ -1,0 +1,822 @@
+{
+  "seed": 42,
+  "fractions": {
+    "train": 0.5,
+    "val": 0.2,
+    "test": 0.3
+  },
+  "n_videos": {
+    "train": 44,
+    "val": 18,
+    "test": 26
+  },
+  "n_questions": {
+    "train": 132,
+    "val": 54,
+    "test": 78
+  },
+  "counts": {
+    "duration": {
+      "long": {
+        "train": 15,
+        "val": 6,
+        "test": 9
+      },
+      "medium": {
+        "train": 15,
+        "val": 6,
+        "test": 9
+      },
+      "short": {
+        "train": 14,
+        "val": 6,
+        "test": 8
+      }
+    },
+    "domain": {
+      "Artistic Performance": {
+        "train": 6,
+        "val": 2,
+        "test": 3
+      },
+      "Film & Television": {
+        "train": 6,
+        "val": 2,
+        "test": 3
+      },
+      "Knowledge": {
+        "train": 11,
+        "val": 4,
+        "test": 8
+      },
+      "Life Record": {
+        "train": 12,
+        "val": 5,
+        "test": 6
+      },
+      "Sports Competition": {
+        "train": 9,
+        "val": 5,
+        "test": 6
+      }
+    },
+    "sub_category": {
+      "Acrobatics": {
+        "train": 1,
+        "val": 0,
+        "test": 1
+      },
+      "Animation": {
+        "train": 1,
+        "val": 0,
+        "test": 1
+      },
+      "Astronomy": {
+        "train": 1,
+        "val": 0,
+        "test": 0
+      },
+      "Athletics": {
+        "train": 4,
+        "val": 2,
+        "test": 2
+      },
+      "Basketball": {
+        "train": 1,
+        "val": 0,
+        "test": 1
+      },
+      "Biology & Medicine": {
+        "train": 1,
+        "val": 1,
+        "test": 1
+      },
+      "Daily Life": {
+        "train": 2,
+        "val": 1,
+        "test": 1
+      },
+      "Documentary": {
+        "train": 1,
+        "val": 1,
+        "test": 1
+      },
+      "Esports": {
+        "train": 1,
+        "val": 1,
+        "test": 1
+      },
+      "Exercise": {
+        "train": 1,
+        "val": 0,
+        "test": 0
+      },
+      "Fashion": {
+        "train": 4,
+        "val": 1,
+        "test": 2
+      },
+      "Finance & Commerce": {
+        "train": 1,
+        "val": 0,
+        "test": 1
+      },
+      "Food": {
+        "train": 1,
+        "val": 1,
+        "test": 1
+      },
+      "Football": {
+        "train": 1,
+        "val": 1,
+        "test": 1
+      },
+      "Geography": {
+        "train": 4,
+        "val": 1,
+        "test": 2
+      },
+      "Handicraft": {
+        "train": 2,
+        "val": 1,
+        "test": 1
+      },
+      "Humanity & History": {
+        "train": 1,
+        "val": 0,
+        "test": 1
+      },
+      "Life Tip": {
+        "train": 0,
+        "val": 1,
+        "test": 1
+      },
+      "Literature & Art": {
+        "train": 2,
+        "val": 1,
+        "test": 2
+      },
+      "Magic Show": {
+        "train": 1,
+        "val": 1,
+        "test": 1
+      },
+      "Movie & TV Show": {
+        "train": 2,
+        "val": 0,
+        "test": 0
+      },
+      "News Report": {
+        "train": 2,
+        "val": 1,
+        "test": 1
+      },
+      "Other Sports": {
+        "train": 2,
+        "val": 1,
+        "test": 1
+      },
+      "Stage Play": {
+        "train": 3,
+        "val": 1,
+        "test": 1
+      },
+      "Technology": {
+        "train": 1,
+        "val": 0,
+        "test": 0
+      },
+      "Travel": {
+        "train": 2,
+        "val": 1,
+        "test": 1
+      },
+      "Variety Show": {
+        "train": 1,
+        "val": 0,
+        "test": 0
+      }
+    }
+  },
+  "videos": [
+    {
+      "video_id": "026dzf-vc5g",
+      "duration": "short",
+      "domain": "Artistic Performance",
+      "sub_category": "Acrobatics",
+      "split": "test"
+    },
+    {
+      "video_id": "2gFxZmb0dMo",
+      "duration": "short",
+      "domain": "Life Record",
+      "sub_category": "Travel",
+      "split": "test"
+    },
+    {
+      "video_id": "3EQzRz-V7uE",
+      "duration": "medium",
+      "domain": "Life Record",
+      "sub_category": "Handicraft",
+      "split": "test"
+    },
+    {
+      "video_id": "4qYqPmIO0v0",
+      "duration": "long",
+      "domain": "Sports Competition",
+      "sub_category": "Basketball",
+      "split": "test"
+    },
+    {
+      "video_id": "6DbsOZU8mBM",
+      "duration": "medium",
+      "domain": "Life Record",
+      "sub_category": "Food",
+      "split": "test"
+    },
+    {
+      "video_id": "7fnVcXfPe5c",
+      "duration": "medium",
+      "domain": "Knowledge",
+      "sub_category": "Life Tip",
+      "split": "test"
+    },
+    {
+      "video_id": "J5Npf2xJpag",
+      "duration": "long",
+      "domain": "Knowledge",
+      "sub_category": "Finance & Commerce",
+      "split": "test"
+    },
+    {
+      "video_id": "M69Sn3OERZo",
+      "duration": "short",
+      "domain": "Film & Television",
+      "sub_category": "Animation",
+      "split": "test"
+    },
+    {
+      "video_id": "O7zcPvQDIMU",
+      "duration": "long",
+      "domain": "Knowledge",
+      "sub_category": "Humanity & History",
+      "split": "test"
+    },
+    {
+      "video_id": "QrmxMNBhH2Q",
+      "duration": "medium",
+      "domain": "Film & Television",
+      "sub_category": "Documentary",
+      "split": "test"
+    },
+    {
+      "video_id": "Qyg_91gNHCc",
+      "duration": "short",
+      "domain": "Knowledge",
+      "sub_category": "Geography",
+      "split": "test"
+    },
+    {
+      "video_id": "RU8IfXp7LbE",
+      "duration": "short",
+      "domain": "Life Record",
+      "sub_category": "Daily Life",
+      "split": "test"
+    },
+    {
+      "video_id": "RgJVug6iNs8",
+      "duration": "long",
+      "domain": "Artistic Performance",
+      "sub_category": "Stage Play",
+      "split": "test"
+    },
+    {
+      "video_id": "S8w44Tl5atk",
+      "duration": "long",
+      "domain": "Sports Competition",
+      "sub_category": "Esports",
+      "split": "test"
+    },
+    {
+      "video_id": "SB4NLADmT_k",
+      "duration": "long",
+      "domain": "Sports Competition",
+      "sub_category": "Athletics",
+      "split": "test"
+    },
+    {
+      "video_id": "SBssmtYTJpM",
+      "duration": "medium",
+      "domain": "Sports Competition",
+      "sub_category": "Athletics",
+      "split": "test"
+    },
+    {
+      "video_id": "URUJD5NEXC8",
+      "duration": "medium",
+      "domain": "Knowledge",
+      "sub_category": "Biology & Medicine",
+      "split": "test"
+    },
+    {
+      "video_id": "YPaLGP_xr-w",
+      "duration": "short",
+      "domain": "Knowledge",
+      "sub_category": "Literature & Art",
+      "split": "test"
+    },
+    {
+      "video_id": "_qepWb_NVj4",
+      "duration": "medium",
+      "domain": "Knowledge",
+      "sub_category": "Geography",
+      "split": "test"
+    },
+    {
+      "video_id": "a8IGDMrohnY",
+      "duration": "medium",
+      "domain": "Artistic Performance",
+      "sub_category": "Magic Show",
+      "split": "test"
+    },
+    {
+      "video_id": "mOiEOs3ZlT8",
+      "duration": "long",
+      "domain": "Knowledge",
+      "sub_category": "Literature & Art",
+      "split": "test"
+    },
+    {
+      "video_id": "md6mZDhuR9s",
+      "duration": "long",
+      "domain": "Sports Competition",
+      "sub_category": "Football",
+      "split": "test"
+    },
+    {
+      "video_id": "qd2ivr-5oEM",
+      "duration": "long",
+      "domain": "Film & Television",
+      "sub_category": "News Report",
+      "split": "test"
+    },
+    {
+      "video_id": "uVR-DZQuRbM",
+      "duration": "short",
+      "domain": "Life Record",
+      "sub_category": "Fashion",
+      "split": "test"
+    },
+    {
+      "video_id": "wGfRSojH0PE",
+      "duration": "short",
+      "domain": "Sports Competition",
+      "sub_category": "Other Sports",
+      "split": "test"
+    },
+    {
+      "video_id": "x-ccfWcbht4",
+      "duration": "medium",
+      "domain": "Life Record",
+      "sub_category": "Fashion",
+      "split": "test"
+    },
+    {
+      "video_id": "1NYQf_OXDqI",
+      "duration": "long",
+      "domain": "Film & Television",
+      "sub_category": "Animation",
+      "split": "train"
+    },
+    {
+      "video_id": "2QTiAmvygC4",
+      "duration": "short",
+      "domain": "Artistic Performance",
+      "sub_category": "Stage Play",
+      "split": "train"
+    },
+    {
+      "video_id": "2iHmlBmLKUE",
+      "duration": "short",
+      "domain": "Life Record",
+      "sub_category": "Fashion",
+      "split": "train"
+    },
+    {
+      "video_id": "3EQLFHRHpag",
+      "duration": "medium",
+      "domain": "Film & Television",
+      "sub_category": "Documentary",
+      "split": "train"
+    },
+    {
+      "video_id": "5i5Be73ESUc",
+      "duration": "long",
+      "domain": "Life Record",
+      "sub_category": "Daily Life",
+      "split": "train"
+    },
+    {
+      "video_id": "8TNPeimqOO0",
+      "duration": "short",
+      "domain": "Knowledge",
+      "sub_category": "Geography",
+      "split": "train"
+    },
+    {
+      "video_id": "9v9NHoTXc-Q",
+      "duration": "short",
+      "domain": "Life Record",
+      "sub_category": "Fashion",
+      "split": "train"
+    },
+    {
+      "video_id": "A30IuIjQYYg",
+      "duration": "medium",
+      "domain": "Life Record",
+      "sub_category": "Travel",
+      "split": "train"
+    },
+    {
+      "video_id": "ACvLYz9nHvg",
+      "duration": "medium",
+      "domain": "Sports Competition",
+      "sub_category": "Basketball",
+      "split": "train"
+    },
+    {
+      "video_id": "Cb91B0wZYLE",
+      "duration": "long",
+      "domain": "Artistic Performance",
+      "sub_category": "Magic Show",
+      "split": "train"
+    },
+    {
+      "video_id": "DF_J3vCcbBA",
+      "duration": "short",
+      "domain": "Knowledge",
+      "sub_category": "Geography",
+      "split": "train"
+    },
+    {
+      "video_id": "ElWG0_kjy_Y",
+      "duration": "long",
+      "domain": "Knowledge",
+      "sub_category": "Literature & Art",
+      "split": "train"
+    },
+    {
+      "video_id": "FkrIcmXvv18",
+      "duration": "long",
+      "domain": "Artistic Performance",
+      "sub_category": "Stage Play",
+      "split": "train"
+    },
+    {
+      "video_id": "G267g0DpCVg",
+      "duration": "short",
+      "domain": "Film & Television",
+      "sub_category": "Movie & TV Show",
+      "split": "train"
+    },
+    {
+      "video_id": "K0mjUgHKfJo",
+      "duration": "short",
+      "domain": "Knowledge",
+      "sub_category": "Geography",
+      "split": "train"
+    },
+    {
+      "video_id": "LCfBYE97rFk",
+      "duration": "long",
+      "domain": "Knowledge",
+      "sub_category": "Literature & Art",
+      "split": "train"
+    },
+    {
+      "video_id": "MaAv2IVzqhM",
+      "duration": "medium",
+      "domain": "Knowledge",
+      "sub_category": "Astronomy",
+      "split": "train"
+    },
+    {
+      "video_id": "NEFG7YcIDcI",
+      "duration": "short",
+      "domain": "Knowledge",
+      "sub_category": "Geography",
+      "split": "train"
+    },
+    {
+      "video_id": "OGQ7KwUXuBk",
+      "duration": "short",
+      "domain": "Life Record",
+      "sub_category": "Fashion",
+      "split": "train"
+    },
+    {
+      "video_id": "P69idA8JO98",
+      "duration": "long",
+      "domain": "Artistic Performance",
+      "sub_category": "Stage Play",
+      "split": "train"
+    },
+    {
+      "video_id": "QxYHkKLaFmY",
+      "duration": "medium",
+      "domain": "Film & Television",
+      "sub_category": "Movie & TV Show",
+      "split": "train"
+    },
+    {
+      "video_id": "RwdvZLz-aSk",
+      "duration": "long",
+      "domain": "Sports Competition",
+      "sub_category": "Football",
+      "split": "train"
+    },
+    {
+      "video_id": "UIX6f0xMQ2U",
+      "duration": "medium",
+      "domain": "Sports Competition",
+      "sub_category": "Athletics",
+      "split": "train"
+    },
+    {
+      "video_id": "Xjf5N9S3jAA",
+      "duration": "long",
+      "domain": "Sports Competition",
+      "sub_category": "Other Sports",
+      "split": "train"
+    },
+    {
+      "video_id": "YlAefotZNAc",
+      "duration": "short",
+      "domain": "Film & Television",
+      "sub_category": "News Report",
+      "split": "train"
+    },
+    {
+      "video_id": "ZQIZx5Oqw88",
+      "duration": "medium",
+      "domain": "Sports Competition",
+      "sub_category": "Athletics",
+      "split": "train"
+    },
+    {
+      "video_id": "a7jZszvFpTY",
+      "duration": "medium",
+      "domain": "Artistic Performance",
+      "sub_category": "Acrobatics",
+      "split": "train"
+    },
+    {
+      "video_id": "awHc8IySU-I",
+      "duration": "medium",
+      "domain": "Sports Competition",
+      "sub_category": "Other Sports",
+      "split": "train"
+    },
+    {
+      "video_id": "bepwr1-CNRU",
+      "duration": "medium",
+      "domain": "Knowledge",
+      "sub_category": "Technology",
+      "split": "train"
+    },
+    {
+      "video_id": "biiLScgI3u4",
+      "duration": "medium",
+      "domain": "Life Record",
+      "sub_category": "Handicraft",
+      "split": "train"
+    },
+    {
+      "video_id": "c0siCya457M",
+      "duration": "short",
+      "domain": "Film & Television",
+      "sub_category": "News Report",
+      "split": "train"
+    },
+    {
+      "video_id": "eZ5lFBPpRkM",
+      "duration": "long",
+      "domain": "Life Record",
+      "sub_category": "Travel",
+      "split": "train"
+    },
+    {
+      "video_id": "frX8GujpmkI",
+      "duration": "short",
+      "domain": "Life Record",
+      "sub_category": "Fashion",
+      "split": "train"
+    },
+    {
+      "video_id": "gTPHH880Cyc",
+      "duration": "long",
+      "domain": "Sports Competition",
+      "sub_category": "Athletics",
+      "split": "train"
+    },
+    {
+      "video_id": "jkNxmTrrZSk",
+      "duration": "short",
+      "domain": "Knowledge",
+      "sub_category": "Biology & Medicine",
+      "split": "train"
+    },
+    {
+      "video_id": "lNvBXLbInXE",
+      "duration": "medium",
+      "domain": "Life Record",
+      "sub_category": "Exercise",
+      "split": "train"
+    },
+    {
+      "video_id": "ooqdg9Wr-mo",
+      "duration": "medium",
+      "domain": "Life Record",
+      "sub_category": "Food",
+      "split": "train"
+    },
+    {
+      "video_id": "pcm_E7UoKLo",
+      "duration": "short",
+      "domain": "Artistic Performance",
+      "sub_category": "Variety Show",
+      "split": "train"
+    },
+    {
+      "video_id": "vDzNVHXc66U",
+      "duration": "long",
+      "domain": "Life Record",
+      "sub_category": "Handicraft",
+      "split": "train"
+    },
+    {
+      "video_id": "vf3sPa2W0sA",
+      "duration": "medium",
+      "domain": "Sports Competition",
+      "sub_category": "Athletics",
+      "split": "train"
+    },
+    {
+      "video_id": "vzfTpidE5wg",
+      "duration": "long",
+      "domain": "Life Record",
+      "sub_category": "Daily Life",
+      "split": "train"
+    },
+    {
+      "video_id": "xKiRmesHWIA",
+      "duration": "long",
+      "domain": "Knowledge",
+      "sub_category": "Humanity & History",
+      "split": "train"
+    },
+    {
+      "video_id": "xvQOEdwAgj0",
+      "duration": "long",
+      "domain": "Sports Competition",
+      "sub_category": "Esports",
+      "split": "train"
+    },
+    {
+      "video_id": "zIbNJCSCEjk",
+      "duration": "medium",
+      "domain": "Knowledge",
+      "sub_category": "Finance & Commerce",
+      "split": "train"
+    },
+    {
+      "video_id": "27YZLpw0M98",
+      "duration": "short",
+      "domain": "Life Record",
+      "sub_category": "Travel",
+      "split": "val"
+    },
+    {
+      "video_id": "5LU_XY0z2ZY",
+      "duration": "long",
+      "domain": "Knowledge",
+      "sub_category": "Biology & Medicine",
+      "split": "val"
+    },
+    {
+      "video_id": "7iXM5aq53Ts",
+      "duration": "short",
+      "domain": "Knowledge",
+      "sub_category": "Life Tip",
+      "split": "val"
+    },
+    {
+      "video_id": "913JhnW28U4",
+      "duration": "short",
+      "domain": "Sports Competition",
+      "sub_category": "Athletics",
+      "split": "val"
+    },
+    {
+      "video_id": "D0ZMmQjKn2Q",
+      "duration": "long",
+      "domain": "Artistic Performance",
+      "sub_category": "Magic Show",
+      "split": "val"
+    },
+    {
+      "video_id": "DfZIv2FKWj4",
+      "duration": "medium",
+      "domain": "Sports Competition",
+      "sub_category": "Other Sports",
+      "split": "val"
+    },
+    {
+      "video_id": "FlcVBKTSjRs",
+      "duration": "short",
+      "domain": "Life Record",
+      "sub_category": "Handicraft",
+      "split": "val"
+    },
+    {
+      "video_id": "HK13nVxBYxI",
+      "duration": "medium",
+      "domain": "Film & Television",
+      "sub_category": "News Report",
+      "split": "val"
+    },
+    {
+      "video_id": "IaTaaNinolU",
+      "duration": "medium",
+      "domain": "Knowledge",
+      "sub_category": "Literature & Art",
+      "split": "val"
+    },
+    {
+      "video_id": "K7YNoRZMv2k",
+      "duration": "long",
+      "domain": "Life Record",
+      "sub_category": "Fashion",
+      "split": "val"
+    },
+    {
+      "video_id": "KlbDo9o5SC8",
+      "duration": "medium",
+      "domain": "Sports Competition",
+      "sub_category": "Football",
+      "split": "val"
+    },
+    {
+      "video_id": "LlajSKnbcGk",
+      "duration": "short",
+      "domain": "Sports Competition",
+      "sub_category": "Esports",
+      "split": "val"
+    },
+    {
+      "video_id": "MPfuSfiZ96A",
+      "duration": "short",
+      "domain": "Film & Television",
+      "sub_category": "Documentary",
+      "split": "val"
+    },
+    {
+      "video_id": "NeLj-gLWgug",
+      "duration": "medium",
+      "domain": "Life Record",
+      "sub_category": "Daily Life",
+      "split": "val"
+    },
+    {
+      "video_id": "YtAL8y2lACs",
+      "duration": "long",
+      "domain": "Knowledge",
+      "sub_category": "Geography",
+      "split": "val"
+    },
+    {
+      "video_id": "_w4XRiUVfY4",
+      "duration": "medium",
+      "domain": "Artistic Performance",
+      "sub_category": "Stage Play",
+      "split": "val"
+    },
+    {
+      "video_id": "g8UiXbc19og",
+      "duration": "long",
+      "domain": "Sports Competition",
+      "sub_category": "Athletics",
+      "split": "val"
+    },
+    {
+      "video_id": "y9Fne3oUwX4",
+      "duration": "long",
+      "domain": "Life Record",
+      "sub_category": "Food",
+      "split": "val"
+    }
+  ],
+  "dropped_domains": [
+    "Multilingual"
+  ]
+}

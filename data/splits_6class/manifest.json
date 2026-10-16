@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "fractions": {
+    "train": 0.5,
+    "val": 0.2,
+    "test": 0.3
+  },
+  "n_videos": {
+    "train": 45,
+    "val": 18,
+    "test": 27
+  },
+  "by_duration": {
+    "short": {
+      "train": 15,
+      "val": 6,
+      "test": 9
+    },
+    "medium": {
+      "train": 15,
+      "val": 6,
+      "test": 9
+    },
+    "long": {
+      "train": 15,
+      "val": 6,
+      "test": 9
+    }
+  }
+}

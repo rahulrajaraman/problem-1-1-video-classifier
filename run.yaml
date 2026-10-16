@@ -4,16 +4,20 @@
 
 setup_commands:
   - "pip install -r requirements.txt"
-  # - add every other setup step here, in order (env vars, downloads, etc.)
+  - "python scripts/download_mobileclip.py"
 
 run_commands:
-  - "python src/main.py --help"
-  # - the real command(s) that actually run your solution
+  - "python src/main.py --predict data/sample/sports_clip.mp4"
 
-test_commands: []
-  # optional -- commands that run your own tests/checks, if you have any
+test_commands:
+  - "python scripts/smoke_test.py"
 
-notes: ""
-  # anything we should know before running this (e.g. "needs a GPU",
-  # "takes about 10 minutes", "expects a sample dataset already present
-  # under data/, see docs/ for where to get it")
+notes: |
+  Default run: calibrated MobileCLIP-S0 zero-shot on the bundled sample clip
+  (expects "Sports Competition"). Needs models/mobileclip/calibration.json
+  (shipped) and mobileclip_s0.pt (downloaded in setup).
+
+  Full Video-MME metrics (88 videos, 5 domains) are optional — see docs/README.md:
+    python scripts/download_dataset.py   # ~11 GB from aintropy-ai/video-mme-sample10
+    python scripts/prepare_eval.py
+    python src/main.py                   # accuracy, macro-F1, per-class F1, confusion

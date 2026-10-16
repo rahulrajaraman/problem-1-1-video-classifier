@@ -1,0 +1,21 @@
+{
+  "names": [
+    "Artistic Performance",
+    "Film & Television",
+    "Knowledge",
+    "Life Record",
+    "Sports Competition"
+  ],
+  "offsets": [
+    -5.342827320098877,
+    -2.3557238578796387,
+    -3.1453704833984375,
+    -3.481046438217163,
+    -5.651866912841797
+  ],
+  "calibration_splits": [
+    "train",
+    "val"
+  ],
+  "sampling": "both_n60_i1_m100"
+}
