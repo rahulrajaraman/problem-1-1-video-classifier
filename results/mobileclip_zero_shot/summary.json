@@ -1,0 +1,542 @@
+{
+  "sampling": "both_n60_i1_m100",
+  "names": [
+    "Artistic Performance",
+    "Film & Television",
+    "Knowledge",
+    "Life Record",
+    "Sports Competition"
+  ],
+  "calibration_splits": [
+    "train",
+    "val"
+  ],
+  "results": {
+    "uncalibrated": {
+      "all": {
+        "accuracy": 0.7159090909090909,
+        "correct": 63,
+        "total": 88,
+        "macro_f1": 0.7183149734802121,
+        "per_class": {
+          "Artistic Performance": "7/11",
+          "Film & Television": "9/11",
+          "Knowledge": "12/23",
+          "Life Record": "17/23",
+          "Sports Competition": "18/20"
+        },
+        "per_class_f1": {
+          "Artistic Performance": {
+            "precision": 0.875,
+            "recall": 0.6364,
+            "f1": 0.7368,
+            "support": 11,
+            "correct": 7
+          },
+          "Film & Television": {
+            "precision": 0.3103,
+            "recall": 0.8182,
+            "f1": 0.45,
+            "support": 11,
+            "correct": 9
+          },
+          "Knowledge": {
+            "precision": 0.9231,
+            "recall": 0.5217,
+            "f1": 0.6667,
+            "support": 23,
+            "correct": 12
+          },
+          "Life Record": {
+            "precision": 0.85,
+            "recall": 0.7391,
+            "f1": 0.7907,
+            "support": 23,
+            "correct": 17
+          },
+          "Sports Competition": {
+            "precision": 1.0,
+            "recall": 0.9,
+            "f1": 0.9474,
+            "support": 20,
+            "correct": 18
+          }
+        },
+        "confusion": [
+          [
+            7,
+            3,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            9,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            11,
+            12,
+            0,
+            0
+          ],
+          [
+            1,
+            4,
+            1,
+            17,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            18
+          ]
+        ]
+      },
+      "train+val": {
+        "accuracy": 0.7377049180327869,
+        "correct": 45,
+        "total": 61,
+        "macro_f1": 0.7413068783068782,
+        "per_class": {
+          "Artistic Performance": "4/6",
+          "Film & Television": "6/8",
+          "Knowledge": "8/17",
+          "Life Record": "14/16",
+          "Sports Competition": "13/14"
+        },
+        "per_class_f1": {
+          "Artistic Performance": {
+            "precision": 1.0,
+            "recall": 0.6667,
+            "f1": 0.8,
+            "support": 6,
+            "correct": 4
+          },
+          "Film & Television": {
+            "precision": 0.3,
+            "recall": 0.75,
+            "f1": 0.4286,
+            "support": 8,
+            "correct": 6
+          },
+          "Knowledge": {
+            "precision": 1.0,
+            "recall": 0.4706,
+            "f1": 0.64,
+            "support": 17,
+            "correct": 8
+          },
+          "Life Record": {
+            "precision": 0.875,
+            "recall": 0.875,
+            "f1": 0.875,
+            "support": 16,
+            "correct": 14
+          },
+          "Sports Competition": {
+            "precision": 1.0,
+            "recall": 0.9286,
+            "f1": 0.963,
+            "support": 14,
+            "correct": 13
+          }
+        },
+        "confusion": [
+          [
+            4,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            9,
+            8,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            13
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.6666666666666666,
+        "correct": 18,
+        "total": 27,
+        "macro_f1": 0.6696969696969697,
+        "per_class": {
+          "Artistic Performance": "3/5",
+          "Film & Television": "3/3",
+          "Knowledge": "4/6",
+          "Life Record": "3/7",
+          "Sports Competition": "5/6"
+        },
+        "per_class_f1": {
+          "Artistic Performance": {
+            "precision": 0.75,
+            "recall": 0.6,
+            "f1": 0.6667,
+            "support": 5,
+            "correct": 3
+          },
+          "Film & Television": {
+            "precision": 0.3333,
+            "recall": 1.0,
+            "f1": 0.5,
+            "support": 3,
+            "correct": 3
+          },
+          "Knowledge": {
+            "precision": 0.8,
+            "recall": 0.6667,
+            "f1": 0.7273,
+            "support": 6,
+            "correct": 4
+          },
+          "Life Record": {
+            "precision": 0.75,
+            "recall": 0.4286,
+            "f1": 0.5455,
+            "support": 7,
+            "correct": 3
+          },
+          "Sports Competition": {
+            "precision": 1.0,
+            "recall": 0.8333,
+            "f1": 0.9091,
+            "support": 6,
+            "correct": 5
+          }
+        },
+        "confusion": [
+          [
+            3,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            4,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            5
+          ]
+        ]
+      }
+    },
+    "calibrated": {
+      "all": {
+        "accuracy": 0.8181818181818182,
+        "correct": 72,
+        "total": 88,
+        "macro_f1": 0.8014142601584462,
+        "per_class": {
+          "Artistic Performance": "10/11",
+          "Film & Television": "8/11",
+          "Knowledge": "18/23",
+          "Life Record": "17/23",
+          "Sports Competition": "19/20"
+        },
+        "per_class_f1": {
+          "Artistic Performance": {
+            "precision": 0.6667,
+            "recall": 0.9091,
+            "f1": 0.7692,
+            "support": 11,
+            "correct": 10
+          },
+          "Film & Television": {
+            "precision": 0.5714,
+            "recall": 0.7273,
+            "f1": 0.64,
+            "support": 11,
+            "correct": 8
+          },
+          "Knowledge": {
+            "precision": 0.9474,
+            "recall": 0.7826,
+            "f1": 0.8571,
+            "support": 23,
+            "correct": 18
+          },
+          "Life Record": {
+            "precision": 0.85,
+            "recall": 0.7391,
+            "f1": 0.7907,
+            "support": 23,
+            "correct": 17
+          },
+          "Sports Competition": {
+            "precision": 0.95,
+            "recall": 0.95,
+            "f1": 0.95,
+            "support": 20,
+            "correct": 19
+          }
+        },
+        "confusion": [
+          [
+            10,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            8,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            4,
+            18,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1,
+            17,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            19
+          ]
+        ]
+      },
+      "train+val": {
+        "accuracy": 0.8360655737704918,
+        "correct": 51,
+        "total": 61,
+        "macro_f1": 0.816718399632749,
+        "per_class": {
+          "Artistic Performance": "6/6",
+          "Film & Television": "5/8",
+          "Knowledge": "13/17",
+          "Life Record": "13/16",
+          "Sports Competition": "14/14"
+        },
+        "per_class_f1": {
+          "Artistic Performance": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571,
+            "support": 6,
+            "correct": 6
+          },
+          "Film & Television": {
+            "precision": 0.5,
+            "recall": 0.625,
+            "f1": 0.5556,
+            "support": 8,
+            "correct": 5
+          },
+          "Knowledge": {
+            "precision": 1.0,
+            "recall": 0.7647,
+            "f1": 0.8667,
+            "support": 17,
+            "correct": 13
+          },
+          "Life Record": {
+            "precision": 0.8667,
+            "recall": 0.8125,
+            "f1": 0.8387,
+            "support": 16,
+            "correct": 13
+          },
+          "Sports Competition": {
+            "precision": 0.9333,
+            "recall": 1.0,
+            "f1": 0.9655,
+            "support": 14,
+            "correct": 14
+          }
+        },
+        "confusion": [
+          [
+            6,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            5,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            4,
+            13,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            14
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.7777777777777778,
+        "correct": 21,
+        "total": 27,
+        "macro_f1": 0.7865800865800866,
+        "per_class": {
+          "Artistic Performance": "4/5",
+          "Film & Television": "3/3",
+          "Knowledge": "5/6",
+          "Life Record": "4/7",
+          "Sports Competition": "5/6"
+        },
+        "per_class_f1": {
+          "Artistic Performance": {
+            "precision": 0.5714,
+            "recall": 0.8,
+            "f1": 0.6667,
+            "support": 5,
+            "correct": 4
+          },
+          "Film & Television": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571,
+            "support": 3,
+            "correct": 3
+          },
+          "Knowledge": {
+            "precision": 0.8333,
+            "recall": 0.8333,
+            "f1": 0.8333,
+            "support": 6,
+            "correct": 5
+          },
+          "Life Record": {
+            "precision": 0.8,
+            "recall": 0.5714,
+            "f1": 0.6667,
+            "support": 7,
+            "correct": 4
+          },
+          "Sports Competition": {
+            "precision": 1.0,
+            "recall": 0.8333,
+            "f1": 0.9091,
+            "support": 6,
+            "correct": 5
+          }
+        },
+        "confusion": [
+          [
+            4,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            4,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            5
+          ]
+        ]
+      }
+    }
+  }
+}

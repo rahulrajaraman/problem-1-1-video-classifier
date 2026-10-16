@@ -51,8 +51,12 @@ models/**/*.pth
 .cache/
 
 # Regenerable eval outputs (re-run: python src/main.py)
+# Keep only the published benchmark summary so metrics ship with the repo.
 results/*
 !results/.gitkeep
+!results/mobileclip_zero_shot/
+results/mobileclip_zero_shot/*
+!results/mobileclip_zero_shot/summary.json
 
 # Archived experiment run logs / JSONL (write-up is in docs/experiments.md)
 experiments/*
